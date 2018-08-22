@@ -9,13 +9,13 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Zachary Petersen</title>
+    <title>Zachary Petersen Portfolio</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Theme CSS -->
-    <link href="css/freelancer.min.css" rel="stylesheet">
+    <link href="css/freelancer.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -34,52 +34,17 @@
 <body id="page-top" class="index">
 <div id="skipnav"><a href="#maincontent">Skip to main content</a></div>
 
-    <!-- Navigation -->
-    <!--<nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
-        <div class="container">
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand" href="#page-top">Zachary Petersen</a>
-            </div>
-
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#portfolio">Projects</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#about">Résumé</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    -->
-
     <!-- Header -->
     <header>
         <div class="container" id="maincontent" tabindex="-1">
             <div class="row">
                 <div class="col-lg-12">
-                    <img class="img-responsive" src="img/me.png" alt="">
-                    <div class="intro-text">
-                        <h1 class="name">Zachary Petersen</h1>
-                        <hr class="star-light">
-                        <span class="skills">Game Programmer</span>
-                        <div style="font-size:14px; margin-top: 20px">
-                            <div class="skills">zacharypetersen1@gmail.com</div>
-                            <div class="skills">(650) 272-0714</div>
-                            <a href="https://www.linkedin.com/in/zachary-petersen/" style="color:#3f5872"><div class="skills">LinkedIn</div></a>
-                            <a href="https://github.com/zacharypetersen1/" style="color:#3f5872"><div class="skills">GitHub</div></a>
-                        </div>
+                    <div style="margin-top: 15px">
+                        <img src="img/me.png" height="100px" style="float: left"/>
+                        <span class="intro-text" style="float:left; text-align:left; margin-top: 5px; margin-left: 15px">
+                            <div style="font-size: 36px; font-weight: bold">Zachary Petersen</div>
+                            <div style="font-size: 22px">Game Programmer</div>
+                        </span>
                     </div>
                 </div>
             </div>
@@ -91,13 +56,40 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Projects</h2>
-                    <hr class="star-primary">
+                    <div class="section-title">Professional Experience</div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                    <a href="roblox/" class="portfolio-link">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/roblox.png" class="img-responsive" alt="Cabin">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="flexible-cel-shader/" class="portfolio-link">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/flexibleCelShader.png" class="img-responsive" alt="Cabin">
+                    </a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-12 text-center" style="margin-top:50px">
+                    <div class="section-title">Personal Projects</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 portfolio-item">
+                    <a href="flora/" class="portfolio-link">
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
@@ -107,7 +99,7 @@
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                    <a href="picario/" class="portfolio-link">
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
@@ -117,7 +109,7 @@
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                    <a href="nathair/" class="portfolio-link">
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
@@ -126,57 +118,65 @@
                         <img src="img/portfolio/nathair.png" class="img-responsive" alt="Circus tent">
                     </a>
                 </div>
-                <!--div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- Fun stuff section -->
+    <section class="success" id="portfolio">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div class="section-title">Non-Programming Stuff</div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-4 portfolio-item">
+                    <a href="drawings/" class="portfolio-link">
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/openSkies.png" class="img-responsive" alt="Game controller">
+                        <img src="img/portfolio/drawings.png" class="img-responsive" alt="Cabin">
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                    <a href="animations/" class="portfolio-link">
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/atic.png" class="img-responsive" alt="Safe">
+                        <img src="img/portfolio/animations.png" class="img-responsive" alt="Cabin">
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/submarine.png" class="img-responsive" alt="Submarine">
-                    </a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section style="padding-bottom: 20px;" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center" style="margin-bottom: 24px;">
+                    <h2 style="margin-bottom: 10px;">Résumé</h2>
+                    <a href="Resume_Zachary_Petersen.pdf"><button class="btn btn-primary" style="font-size: 1.4em;">PDF<span class="glyphicon glyphicon-new-window" style="margin-left: 8px;"></span></button></a>
+                </div>
+            </div>
+            <div class="row">
+                <!--<div class="col-lg-10 col-lg-offset-1 text-center">
+                    <img src="img/resume.png" style="width:100%"></img>
                 </div>-->
             </div>
         </div>
     </section>
-
-    <!-- About Section -->
-    <section class="success" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center" style="margin-bottom: 24px">
-                    <h2>Résumé</h2>
-                    <hr class="star-light">
-                    <a href="resume.pdf" style="color:#3f5872; font-size:24px"><div class="skills">Click Here for PDF</div></a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <img src="img/resume.png" style="width:100%"></img>
-                </div>
-            </div>
-        </div>
-    </section>
+    <embed src="Resume_Zachary_Petersen.pdf" width="100%" height="1200px">
 
     <!-- Contact Section -->
     <!--<section id="contact">
@@ -197,8 +197,8 @@
     </section>-->
 
     <!-- Footer -->
-    <footer class="text-center">
-        <!--<div class="footer-above">
+    <!--<footer class="text-center">
+        <div class="footer-above">
             <div class="container">
                 <div class="row">
                     <div class="footer-col col-md-4">
@@ -242,8 +242,8 @@
                     </div>
                 </div>
             </div>
-        </div>-->
-    </footer>
+        </div>
+    </footer>-->
 
     <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
     <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
@@ -265,14 +265,39 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
+                            <h2>Flexible Cel Shader</h2>
+                            <hr class="star-primary">
+                            <iframe width="672" height="378" src="https://www.youtube.com/embed/0xoHsLcN1hs" frameborder="0" allowfullscreen></iframe>
+                            <div style="text-align: left">
+                                <ul>
+                                    <li>List entries</li>
+                                </ul>
+                                <br/>
+                            </div>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
                             <h2>Flora</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/flora-screen.png" class="img-responsive img-centered" alt="">
+                            <iframe width="672" height="378" src="https://www.youtube.com/embed/dwXN5FJ3KHU" frameborder="0" allowfullscreen></iframe>
                             <div style="text-align: left">
-                                <p><a href="http://playflora.com">Flora</a> is a third person singleplayer RTS/adventure game featuring Twig, a teenage girl who has the ability to control plants. An invasive corruption has taken over the forest that shelters her village and has poisoned the magical plant creatures called Flora. Only the strongest of the Flora, the Grand Guardians have the power to fight off the corruption.</p> 
-                                <p>When Twig discovers a young stranded Grand Guardian sapling, she decides to protect it from the corrupted Flora and find a way to return it to its home. While she cannot directly attack the corrupted Flora, Twig uses her abilities coupled with the young Grand Guardian's powers to purify them. Twig can then command the newly purified Flora and utilize their unique abilities.</p>
-                                <p>Flora features real time strategy elements as well as an open world to explore.</p> 
-                                <p>Flora is a student game created at UCSC during the 2016/2017 school year. I pitched the game and served as project lead for my team of 8 programmers, 3 musicians, and 2 artists. I had a variety of responsibilities including:</p>
+                                <p><a href="http://playflora.com"></a></p>
                                 <ul>
                                     <li>Interview/recruit programmers, musicians, and artists.</li>
                                     <li>Oversee engineering, plan code structure and weekly goals to meet deadlines, break down daily tasks and delegate tasks to team members.</li>
@@ -288,9 +313,6 @@
                                     <li>Design the world of Flora - Generate and refine the terrain, paint in foliage and textures, add meshes to create points of interest, place enemies and other gameplay related objects.</li>
                                 </ul>
                                 <br/>
-                                <img src="img/portfolio/flora-screenshot.png" class="img-responsive img-centered" alt="">
-                                <iframe width="672" height="378" src="https://www.youtube.com/embed/dwXN5FJ3KHU" frameborder="0" allowfullscreen></iframe>
-                                <img src="img/portfolio/flora-drawing.png" class="img-responsive img-centered" alt="">
                             </div>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
@@ -299,7 +321,7 @@
             </div>
         </div>
     </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -336,7 +358,7 @@
             </div>
         </div>
     </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -350,15 +372,12 @@
                         <div class="modal-body">
                             <h2>Nathair</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/nathair-screen.png" class="img-responsive img-centered" alt="">
+                            <iframe src="https://player.vimeo.com/video/147345917" width="640" height="512" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                             <div style="text-align: left">
                                 <p>Nathair (Irish for "Snake") is a mobile puzzle game based on classic snake. I was inspired to build this game by the beautiful Celtic art I saw while studying abroad in Ireland. There is no "game over" state in Nathair unlike classic snake. Also the player has the ability to rewind time infinitely backwards. This allows players to focus solely on solving the puzzle by maneuvering their snake until they have eaten enough apples to fill up all the open tiles.</p>
                                 <p>Nathair was a personal project, I created all the art, animation, design, and code for the game.</p>
                                 <p>Also I worked with two other programmers to create a level design aid for Nathair. This python tool allows the designer to provide a partial layout for where teleporters, walls, and open spaces must go, then procedurally generates a series of complete levels using the partial layout as a template.</p>
                             </div>
-                            <img src="img/portfolio/Nathair_Alpha.jpg" class="img-responsive img-centered" alt="">
-                            <iframe src="https://player.vimeo.com/video/147345917" width="640" height="512" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                            <img src="img/portfolio/nathair-levelgen.png" class="img-responsive img-centered" alt="">
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>

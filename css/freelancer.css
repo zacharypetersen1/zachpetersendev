@@ -3,11 +3,19 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
+
+.drawing{
+  width:80%;
+}
+
 body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   overflow-x: hidden;
 }
 p {
+  font-size: 20px;
+}
+ul {
   font-size: 20px;
 }
 p.small {
@@ -37,7 +45,7 @@ hr.star-primary {
   border-top: solid 5px;
   text-align: center;
   max-width: 250px;
-  margin: 25px auto 30px;
+  margin: 12px auto 15px;
 }
 hr.star-light:after,
 hr.star-primary:after {
@@ -72,8 +80,8 @@ header {
   color: white;
 }
 header .container {
-  padding-top: 100px;
-  padding-bottom: 50px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 header img {
   display: block;
@@ -92,8 +100,8 @@ header .intro-text .skills {
 }
 @media (min-width: 768px) {
   header .container {
-    padding-top: 200px;
-    padding-bottom: 100px;
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
   header .intro-text .name {
     font-size: 4.75em;
@@ -173,12 +181,16 @@ header .intro-text .skills {
     font-size: 1.5em;
   }
 }
+.section-title {
+  font-size: 2.3em;
+  margin-bottom: 10px;
+}
 section {
-  padding: 100px 0;
+  padding: 50px 0;
 }
 section h2 {
   margin: 0;
-  font-size: 3em;
+  font-size: 2.5em;
 }
 section.success {
   background: #18BC9C;
@@ -186,10 +198,10 @@ section.success {
 }
 @media (max-width: 767px) {
   section {
-    padding: 75px 0;
+    padding: 50px 0;
   }
   section.first {
-    padding-top: 75px;
+    padding-top: 50px;
   }
 }
 #portfolio .portfolio-item {
@@ -237,7 +249,7 @@ section.success {
 }
 @media (min-width: 767px) {
   #portfolio .portfolio-item {
-    margin: 0 0 30px;
+    margin: 0 0 0px;
   }
 }
 .floating-label-form-group {
