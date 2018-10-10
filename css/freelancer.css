@@ -264,7 +264,7 @@ section.success {
 }
 @media (min-width: 767px) {
   #portfolio .portfolio-item {
-    margin: 0 0 0px;
+    margin: 0 0 15px;
   }
 }
 .floating-label-form-group {
