@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Zachary Petersen Portfolio</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="../css/freelancer.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="../vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <div class="modal-body">
+                    <div style="text-align: center">
+                        <div class="section-title">AI Projects (Python)</div>
+                    </div>
+                    <div style="text-align: left">
+                        <p>I studied Game AI at the University of California: Santa Cruz, a hotbed for Expressive AI pioneering and home to influential figures such as Michael Mateas, the co-creator of Façade. Here are some examples of work I did:</p>
+                        <br/>
+                    </div>
+
+                    <div class="nestedProj">
+                        <div style="text-align: center">
+                            <div class="section-title">Behavior Tree</div>
+                        </div>
+                        <p>
+                            Standard Behavior Tree architecture implemented to make a bot that plays Space Wars.
+                        </p>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/3FG8LaXUaEY?mute=1&autoplay=1&loop=1&playlist=3FG8LaXUaEY&controls=0&disablekb=1&modestbranding=1" frameborder="0" allowfullscreen></iframe>
+                    </div>
+
+                    <div class="nestedProj">
+                        <div style="text-align: center">
+                            <div class="section-title">Goal Regression Planning Algorithm</div>
+                        </div>
+                        <p>
+                            Does a reverse search to plan a series of crafting actions that will yield the desired state. With a set of 17 different craftable items and 25 different actions, algorithm is able to calculate a solution for any goal state in less than 1/100 of a second.
+                        </p>
+                        <img src="MC_Planner.png" width="100%"/>
+                    </div>
+
+                    <div class="nestedProj">
+                        <div style="text-align: center">
+                            <div class="section-title">Monte Carlo Tree Search</div>
+                        </div>
+                        <p>
+                            Chooses best place to expand tree of actions, simulates the game using a set of heuristics to obtain a result, then propagates the result back through all the actions that led to it. Actions are then chosen based on how likely they will lead to victory.
+                        </p>
+                        <div style="text-align: center">
+                            <div class="section-title" style="font-size: 24px"><span style="color:blue">Monte Carlo Tree Search Bot</span> vs. <span style="color:red">Random Bot</span></div>
+                        </div>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Og9b_VKs9xE?mute=1&autoplay=1&loop=1&playlist=Og9b_VKs9xE&controls=0&disablekb=1&modestbranding=1" frameborder="0" allowfullscreen></iframe>
+                    </div>
+
+                    <div class="nestedProj">
+                        <div style="text-align: center">
+                            <div class="section-title">AI Assisted Puzzle Designer</div>
+                        </div>
+                        <p>
+                            The user defines a set of constraints for the puzzle: where teleporters go, where the puzzle starts, and where there <i>must</i> be a floor or wall tile. The tool then runs a Depth First Search and generates all puzzles that satisfy the user-defined constraints.
+                        </p>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/eSGRPjj6Xo0?mute=1&autoplay=1&loop=1&playlist=eSGRPjj6Xo0&controls=0&disablekb=1&modestbranding=1" frameborder="0" allowfullscreen></iframe>
+                    </div>
+
+                    <div class="nestedProj">
+                        <div style="text-align: center">
+                            <div class="section-title">A* Pathfinding</div>
+                        </div>
+                        <p>
+                            Traversable area is precompiled into a navmesh. Bidirectional A* is used to find a path.
+                        </p>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/CdEWgsGCz1g?mute=1&autoplay=1&loop=1&playlist=CdEWgsGCz1g&controls=0&disablekb=1&modestbranding=1" frameborder="0" allowfullscreen></iframe>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- jQuery -->
+    <script src="../vendor/jquery/jquery.min.js"></script>
+
+    <!-- Video Resizing Script -->
+    <script src="../js/videoSizer.js"></script>
+
+</body>
+</html>
