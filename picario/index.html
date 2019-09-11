@@ -25,16 +25,38 @@
 </head>
 
 <body>
-            
+    
+    <nav class="navbar">
+      <div class="container-fluid">
+        <ul class="nav navbar-nav">
+          <li><a href="../">Home</a></li>
+          <li><a href="Resume_Zachary_Petersen.pdf" target="_blank">Résumé<span class="glyphicon glyphicon-new-window"></span></a></li>
+          <li><a href="https://linkedin.com/in/zachary-petersen/" target="_blank">Linkedin<span class="glyphicon glyphicon-new-window"></span></a></li>
+          <li><a href="https://github.com/zacharypetersen1" target="_blank">Github<span class="glyphicon glyphicon-new-window"></span></a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container" id="maincontent" tabindex="-1">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="intro-text">
+                        <div style="font-size: 36px; font-weight: bold">Picar.io (Python)</div>
+                        <a href="https://www.lexaloffle.com/bbs/?tid=30059" target="_blank"><button class="btn btn-primary">Pico-8 Page<span class="glyphicon glyphicon-new-window"></span></button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <div class="modal-body">
-                    <div style="text-align: center">
-                        <div class="section-title">Picar.io (Python)</div>
-                    </div>
                     <div style="text-align: left">
-                        <p><a href="https://www.lexaloffle.com/bbs/?tid=30059">Picar.io</a> is proof-of-concept multiplayer game for the Pico-8 virtual console based on Agar.io. It is the first large multiplayer game to be made for the Pico-8, capable of supporting 64+ simultaneous players. I wrote the server for this project.</p>
+                        <p>Picar.io is proof-of-concept multiplayer game for the Pico-8 virtual console based on Agar.io. It is the first large multiplayer game to be made for the Pico-8, capable of supporting 64+ simultaneous players. I wrote the server for this project.</p>
                         <ul>
                             <li>Built Python server that updates clients and deployed it on Google Compute Engine.</li>
                             <li>Implemented spatial hashing, reducing data needed to update clients per tick.</li>
