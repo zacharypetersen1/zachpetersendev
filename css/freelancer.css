@@ -12,6 +12,18 @@
   width:80%;
 }
 
+.portfolioImage {
+  padding: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .portfolioImage {
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 90%;
+  }
+}
+
 .videoWrapper {
   position: relative;
   width: 100%;
